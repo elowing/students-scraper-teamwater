@@ -1,0 +1,37 @@
+Matthias Loker
+names
+names
+
+Matthias Loker
+Life's Good. Winning
+I'm all about...
+Page Link
+
+
+scraping michael
+  storing name
+  storing tag_line
+  ...
+
+
+
+
+
+
+
+class Student
+
+attr_reader :name, tag_line, excerpt, blurb, bio, edu, work, links[]
+
+  def initialize(scraped_hash)
+    @name = scraped_hash[:name]
+  end
+end
+
+
+
+//PROGRAM
+1. intro/help 'type name for details'
+2. menu
+  a. list names 'after name, type more for profile'
+  b. help
